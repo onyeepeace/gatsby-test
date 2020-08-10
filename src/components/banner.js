@@ -29,25 +29,26 @@ const Banner = () => {
     }
   `)
     return (
-        <div className="banner">
-            <div className="container">
-                <div className="row">
-                    <div className="side-image left">
-                        <Img fluid={data.diamonds.childImageSharp.fluid} />
-                    </div>
-                    <div className="main-text">Oladimeji Odunsi</div>
-                    <div className="main-image">
-                        <Img fluid={data.poppinShades.childImageSharp.fluid} />
-                    </div>
-                    <div className="side-image right">
-                        <Img fluid={data.orange.childImageSharp.fluid} />
-                    </div>
-                </div>
-                <div className="scroll">
-                    <span>Scroll Down</span>
-                </div>
+      <div className="banner">
+        <div className="container">
+          <div className="row">
+            <div className="side-image left">
+              <Img fluid={data.diamonds.childImageSharp.fluid} />
             </div>
+            <div className="main-text">Oladimeji Odunsi</div>
+            <div className="main-image">
+              <Img fluid={data.poppinShades.childImageSharp.fluid} />
+            </div>
+            <div className="side-image right">
+              <Img fluid={data.orange.childImageSharp.fluid} />
+            </div>
+          </div>
+          <div className="scroll">
+            <span>Scroll Down</span>
+          </div>
         </div>
+        <div className="fixed-misc">Visual Artist and Photographer</div>
+      </div>
     )
 }
 
